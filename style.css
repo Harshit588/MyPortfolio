@@ -396,43 +396,19 @@ header:hover {
     }
 }
 
-/* Media Queries */
+/* Responsive Design */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        background-color: rgba(44, 62, 80, 0.9);
-        width: 100%;
-        z-index: 1000;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: flex;
-    }
-
     .home-section {
         flex-direction: column;
-        align-items: center;
-        height: auto;
+        text-align: center;
         padding: 20px;
     }
 
-    .profile-img {
-        width: 150px;
-        height: 150px;
+    .profile {
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .section-title {
-        font-size: 2rem;
-    }
-    
+
     .skills-container {
         flex-direction: column;
         align-items: center;
